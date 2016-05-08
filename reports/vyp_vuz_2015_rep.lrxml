@@ -1,0 +1,1067 @@
+<Report>
+  <object Type="Object" ClassName="LimeReport::ReportEnginePrivate">
+    <objectName Type="QString"></objectName>
+    <pages Type="Collection">
+      <item Type="Object" ClassName="LimeReport::PageDesignIntf">
+        <objectName Type="QString">page1</objectName>
+        <sceneRect x="-50" width="2200" Type="QRect" y="-50" height="3070"/>
+        <bspTreeDepth Value="5" Type="int"/>
+        <font pointSize="8" bold="0" Type="QFont" underline="0" italic="0" family="MS Shell Dlg 2"/>
+        <sortCacheEnabled Value="0" Type="bool"/>
+        <stickyFocus Value="0" Type="bool"/>
+        <minimumRenderSize Value="0" Type="qreal"/>
+        <pageItem Type="Object" ClassName="PageItem">
+          <objectName Type="QString">ReportPage1</objectName>
+          <geometry x="0" width="2100" Type="QRect" y="0" height="2970"/>
+          <children Type="Collection">
+            <item Type="Object" ClassName="TextItem">
+              <objectName Type="QString">TextItem3</objectName>
+              <geometry x="2660" width="196" Type="QRect" y="1948" height="48"/>
+              <children Type="Collection"/>
+              <zOrder Value="0" Type="qreal"/>
+              <borders Value="0" Type="enumAndFlags"/>
+              <parentName Type="QString">ReportPage1</parentName>
+              <borderLineSize Value="1" Type="int"/>
+              <isVisible Value="1" Type="bool"/>
+              <itemLocation Value="1" Type="enumAndFlags"/>
+              <stretchToMaxHeight Value="0" Type="bool"/>
+              <itemAlign Value="4" Type="enumAndFlags"/>
+              <content Type="QString">$V{#PAGE}</content>
+              <margin Value="4" Type="int"/>
+              <alignment Value="33" Type="enumAndFlags"/>
+              <autoWidth Value="0" Type="enumAndFlags"/>
+              <autoHeight Value="0" Type="bool"/>
+              <font pointSize="10" bold="0" Type="QFont" underline="0" italic="0" family="Arial"/>
+              <backgroundOpacity Value="100" Type="int"/>
+              <backgroundMode Value="1" Type="enumAndFlags"/>
+              <backgroundColor Value="#ffffff" Type="QColor"/>
+              <fontColor Value="#000000" Type="QColor"/>
+              <angle Value="0" Type="enumAndFlags"/>
+              <foregroundOpacity Value="100" Type="int"/>
+              <trimValue Value="1" Type="bool"/>
+              <allowHTML Value="0" Type="bool"/>
+            </item>
+            <item Type="Object" ClassName="ReportHeader">
+              <objectName Type="QString">ReportHeader1</objectName>
+              <geometry x="50" width="2000" Type="QRect" y="210" height="368"/>
+              <children Type="Collection">
+                <item Type="Object" ClassName="TextItem">
+                  <objectName Type="QString">TextItem4</objectName>
+                  <geometry x="0" width="1154" Type="QRect" y="8" height="152"/>
+                  <children Type="Collection"/>
+                  <zOrder Value="0" Type="qreal"/>
+                  <borders Value="0" Type="enumAndFlags"/>
+                  <parentName Type="QString">ReportHeader1</parentName>
+                  <borderLineSize Value="1" Type="int"/>
+                  <isVisible Value="1" Type="bool"/>
+                  <itemLocation Value="0" Type="enumAndFlags"/>
+                  <stretchToMaxHeight Value="0" Type="bool"/>
+                  <itemAlign Value="0" Type="enumAndFlags"/>
+                  <content Type="QString">Эффективность выпуска с учетом дозащиты по ВУЗам</content>
+                  <margin Value="4" Type="int"/>
+                  <alignment Value="129" Type="enumAndFlags"/>
+                  <autoWidth Value="0" Type="enumAndFlags"/>
+                  <autoHeight Value="0" Type="bool"/>
+                  <font pointSize="14" bold="1" Type="QFont" underline="0" italic="0" family="Liberation Sans"/>
+                  <backgroundOpacity Value="100" Type="int"/>
+                  <backgroundMode Value="1" Type="enumAndFlags"/>
+                  <backgroundColor Value="#ffffff" Type="QColor"/>
+                  <fontColor Value="#000000" Type="QColor"/>
+                  <angle Value="0" Type="enumAndFlags"/>
+                  <foregroundOpacity Value="100" Type="int"/>
+                  <trimValue Value="1" Type="bool"/>
+                  <allowHTML Value="0" Type="bool"/>
+                </item>
+                <item Type="Object" ClassName="TextItem">
+                  <objectName Type="QString">TextItem20</objectName>
+                  <geometry x="1212" width="502" Type="QRect" y="14" height="48"/>
+                  <children Type="Collection"/>
+                  <zOrder Value="0" Type="qreal"/>
+                  <borders Value="0" Type="enumAndFlags"/>
+                  <parentName Type="QString">ReportHeader1</parentName>
+                  <borderLineSize Value="1" Type="int"/>
+                  <isVisible Value="1" Type="bool"/>
+                  <itemLocation Value="0" Type="enumAndFlags"/>
+                  <stretchToMaxHeight Value="0" Type="bool"/>
+                  <itemAlign Value="4" Type="enumAndFlags"/>
+                  <content Type="QString">Установленные фильтры:</content>
+                  <margin Value="4" Type="int"/>
+                  <alignment Value="33" Type="enumAndFlags"/>
+                  <autoWidth Value="0" Type="enumAndFlags"/>
+                  <autoHeight Value="0" Type="bool"/>
+                  <font pointSize="10" bold="0" Type="QFont" underline="0" italic="0" family="Arial"/>
+                  <backgroundOpacity Value="100" Type="int"/>
+                  <backgroundMode Value="1" Type="enumAndFlags"/>
+                  <backgroundColor Value="#ffffff" Type="QColor"/>
+                  <fontColor Value="#000000" Type="QColor"/>
+                  <angle Value="0" Type="enumAndFlags"/>
+                  <foregroundOpacity Value="100" Type="int"/>
+                  <trimValue Value="1" Type="bool"/>
+                  <allowHTML Value="0" Type="bool"/>
+                </item>
+                <item Type="Object" ClassName="TextItem">
+                  <objectName Type="QString">TextItem21</objectName>
+                  <geometry x="1212" width="220" Type="QRect" y="62" height="50"/>
+                  <children Type="Collection"/>
+                  <zOrder Value="0" Type="qreal"/>
+                  <borders Value="0" Type="enumAndFlags"/>
+                  <parentName Type="QString">ReportHeader1</parentName>
+                  <borderLineSize Value="1" Type="int"/>
+                  <isVisible Value="1" Type="bool"/>
+                  <itemLocation Value="0" Type="enumAndFlags"/>
+                  <stretchToMaxHeight Value="0" Type="bool"/>
+                  <itemAlign Value="4" Type="enumAndFlags"/>
+                  <content Type="QString">Регион</content>
+                  <margin Value="4" Type="int"/>
+                  <alignment Value="33" Type="enumAndFlags"/>
+                  <autoWidth Value="0" Type="enumAndFlags"/>
+                  <autoHeight Value="0" Type="bool"/>
+                  <font pointSize="9" bold="0" Type="QFont" underline="0" italic="0" family="Liberation Sans"/>
+                  <backgroundOpacity Value="100" Type="int"/>
+                  <backgroundMode Value="1" Type="enumAndFlags"/>
+                  <backgroundColor Value="#ffffff" Type="QColor"/>
+                  <fontColor Value="#000000" Type="QColor"/>
+                  <angle Value="0" Type="enumAndFlags"/>
+                  <foregroundOpacity Value="100" Type="int"/>
+                  <trimValue Value="1" Type="bool"/>
+                  <allowHTML Value="0" Type="bool"/>
+                </item>
+                <item Type="Object" ClassName="TextItem">
+                  <objectName Type="QString">TextItem22</objectName>
+                  <geometry x="1432" width="498" Type="QRect" y="62" height="50"/>
+                  <children Type="Collection"/>
+                  <zOrder Value="0" Type="qreal"/>
+                  <borders Value="0" Type="enumAndFlags"/>
+                  <parentName Type="QString">ReportHeader1</parentName>
+                  <borderLineSize Value="1" Type="int"/>
+                  <isVisible Value="1" Type="bool"/>
+                  <itemLocation Value="0" Type="enumAndFlags"/>
+                  <stretchToMaxHeight Value="0" Type="bool"/>
+                  <itemAlign Value="4" Type="enumAndFlags"/>
+                  <content Type="QString">$V{reg}</content>
+                  <margin Value="4" Type="int"/>
+                  <alignment Value="33" Type="enumAndFlags"/>
+                  <autoWidth Value="0" Type="enumAndFlags"/>
+                  <autoHeight Value="0" Type="bool"/>
+                  <font pointSize="9" bold="0" Type="QFont" underline="0" italic="0" family="Liberation Sans"/>
+                  <backgroundOpacity Value="100" Type="int"/>
+                  <backgroundMode Value="1" Type="enumAndFlags"/>
+                  <backgroundColor Value="#ffffff" Type="QColor"/>
+                  <fontColor Value="#000000" Type="QColor"/>
+                  <angle Value="0" Type="enumAndFlags"/>
+                  <foregroundOpacity Value="100" Type="int"/>
+                  <trimValue Value="1" Type="bool"/>
+                  <allowHTML Value="0" Type="bool"/>
+                </item>
+                <item Type="Object" ClassName="TextItem">
+                  <objectName Type="QString">TextItem23</objectName>
+                  <geometry x="1212" width="220" Type="QRect" y="112" height="50"/>
+                  <children Type="Collection"/>
+                  <zOrder Value="0" Type="qreal"/>
+                  <borders Value="0" Type="enumAndFlags"/>
+                  <parentName Type="QString">ReportHeader1</parentName>
+                  <borderLineSize Value="1" Type="int"/>
+                  <isVisible Value="1" Type="bool"/>
+                  <itemLocation Value="0" Type="enumAndFlags"/>
+                  <stretchToMaxHeight Value="0" Type="bool"/>
+                  <itemAlign Value="4" Type="enumAndFlags"/>
+                  <content Type="QString">Область
+</content>
+                  <margin Value="4" Type="int"/>
+                  <alignment Value="33" Type="enumAndFlags"/>
+                  <autoWidth Value="0" Type="enumAndFlags"/>
+                  <autoHeight Value="0" Type="bool"/>
+                  <font pointSize="9" bold="0" Type="QFont" underline="0" italic="0" family="Liberation Sans"/>
+                  <backgroundOpacity Value="100" Type="int"/>
+                  <backgroundMode Value="1" Type="enumAndFlags"/>
+                  <backgroundColor Value="#ffffff" Type="QColor"/>
+                  <fontColor Value="#000000" Type="QColor"/>
+                  <angle Value="0" Type="enumAndFlags"/>
+                  <foregroundOpacity Value="100" Type="int"/>
+                  <trimValue Value="1" Type="bool"/>
+                  <allowHTML Value="0" Type="bool"/>
+                </item>
+                <item Type="Object" ClassName="TextItem">
+                  <objectName Type="QString">TextItem24</objectName>
+                  <geometry x="1212" width="220" Type="QRect" y="162" height="50"/>
+                  <children Type="Collection"/>
+                  <zOrder Value="0" Type="qreal"/>
+                  <borders Value="0" Type="enumAndFlags"/>
+                  <parentName Type="QString">ReportHeader1</parentName>
+                  <borderLineSize Value="1" Type="int"/>
+                  <isVisible Value="1" Type="bool"/>
+                  <itemLocation Value="0" Type="enumAndFlags"/>
+                  <stretchToMaxHeight Value="0" Type="bool"/>
+                  <itemAlign Value="4" Type="enumAndFlags"/>
+                  <content Type="QString">Город</content>
+                  <margin Value="4" Type="int"/>
+                  <alignment Value="33" Type="enumAndFlags"/>
+                  <autoWidth Value="0" Type="enumAndFlags"/>
+                  <autoHeight Value="0" Type="bool"/>
+                  <font pointSize="9" bold="0" Type="QFont" underline="0" italic="0" family="Liberation Sans"/>
+                  <backgroundOpacity Value="100" Type="int"/>
+                  <backgroundMode Value="1" Type="enumAndFlags"/>
+                  <backgroundColor Value="#ffffff" Type="QColor"/>
+                  <fontColor Value="#000000" Type="QColor"/>
+                  <angle Value="0" Type="enumAndFlags"/>
+                  <foregroundOpacity Value="100" Type="int"/>
+                  <trimValue Value="1" Type="bool"/>
+                  <allowHTML Value="0" Type="bool"/>
+                </item>
+                <item Type="Object" ClassName="TextItem">
+                  <objectName Type="QString">TextItem25</objectName>
+                  <geometry x="1212" width="220" Type="QRect" y="212" height="50"/>
+                  <children Type="Collection"/>
+                  <zOrder Value="0" Type="qreal"/>
+                  <borders Value="0" Type="enumAndFlags"/>
+                  <parentName Type="QString">ReportHeader1</parentName>
+                  <borderLineSize Value="1" Type="int"/>
+                  <isVisible Value="1" Type="bool"/>
+                  <itemLocation Value="0" Type="enumAndFlags"/>
+                  <stretchToMaxHeight Value="0" Type="bool"/>
+                  <itemAlign Value="4" Type="enumAndFlags"/>
+                  <content Type="QString">Отрасль</content>
+                  <margin Value="4" Type="int"/>
+                  <alignment Value="33" Type="enumAndFlags"/>
+                  <autoWidth Value="0" Type="enumAndFlags"/>
+                  <autoHeight Value="0" Type="bool"/>
+                  <font pointSize="9" bold="0" Type="QFont" underline="0" italic="0" family="Liberation Sans"/>
+                  <backgroundOpacity Value="100" Type="int"/>
+                  <backgroundMode Value="1" Type="enumAndFlags"/>
+                  <backgroundColor Value="#ffffff" Type="QColor"/>
+                  <fontColor Value="#000000" Type="QColor"/>
+                  <angle Value="0" Type="enumAndFlags"/>
+                  <foregroundOpacity Value="100" Type="int"/>
+                  <trimValue Value="1" Type="bool"/>
+                  <allowHTML Value="0" Type="bool"/>
+                </item>
+                <item Type="Object" ClassName="TextItem">
+                  <objectName Type="QString">TextItem26</objectName>
+                  <geometry x="1212" width="220" Type="QRect" y="262" height="46"/>
+                  <children Type="Collection"/>
+                  <zOrder Value="0" Type="qreal"/>
+                  <borders Value="0" Type="enumAndFlags"/>
+                  <parentName Type="QString">ReportHeader1</parentName>
+                  <borderLineSize Value="1" Type="int"/>
+                  <isVisible Value="1" Type="bool"/>
+                  <itemLocation Value="0" Type="enumAndFlags"/>
+                  <stretchToMaxHeight Value="0" Type="bool"/>
+                  <itemAlign Value="4" Type="enumAndFlags"/>
+                  <content Type="QString">Вид обучения</content>
+                  <margin Value="4" Type="int"/>
+                  <alignment Value="33" Type="enumAndFlags"/>
+                  <autoWidth Value="0" Type="enumAndFlags"/>
+                  <autoHeight Value="0" Type="bool"/>
+                  <font pointSize="9" bold="0" Type="QFont" underline="0" italic="0" family="Liberation Sans"/>
+                  <backgroundOpacity Value="100" Type="int"/>
+                  <backgroundMode Value="1" Type="enumAndFlags"/>
+                  <backgroundColor Value="#ffffff" Type="QColor"/>
+                  <fontColor Value="#000000" Type="QColor"/>
+                  <angle Value="0" Type="enumAndFlags"/>
+                  <foregroundOpacity Value="100" Type="int"/>
+                  <trimValue Value="1" Type="bool"/>
+                  <allowHTML Value="0" Type="bool"/>
+                </item>
+                <item Type="Object" ClassName="TextItem">
+                  <objectName Type="QString">TextItem27</objectName>
+                  <geometry x="1212" width="220" Type="QRect" y="308" height="50"/>
+                  <children Type="Collection"/>
+                  <zOrder Value="0" Type="qreal"/>
+                  <borders Value="0" Type="enumAndFlags"/>
+                  <parentName Type="QString">ReportHeader1</parentName>
+                  <borderLineSize Value="1" Type="int"/>
+                  <isVisible Value="1" Type="bool"/>
+                  <itemLocation Value="0" Type="enumAndFlags"/>
+                  <stretchToMaxHeight Value="0" Type="bool"/>
+                  <itemAlign Value="4" Type="enumAndFlags"/>
+                  <content Type="QString">Год</content>
+                  <margin Value="4" Type="int"/>
+                  <alignment Value="33" Type="enumAndFlags"/>
+                  <autoWidth Value="0" Type="enumAndFlags"/>
+                  <autoHeight Value="0" Type="bool"/>
+                  <font pointSize="9" bold="0" Type="QFont" underline="0" italic="0" family="Liberation Sans"/>
+                  <backgroundOpacity Value="100" Type="int"/>
+                  <backgroundMode Value="1" Type="enumAndFlags"/>
+                  <backgroundColor Value="#ffffff" Type="QColor"/>
+                  <fontColor Value="#000000" Type="QColor"/>
+                  <angle Value="0" Type="enumAndFlags"/>
+                  <foregroundOpacity Value="100" Type="int"/>
+                  <trimValue Value="1" Type="bool"/>
+                  <allowHTML Value="0" Type="bool"/>
+                </item>
+                <item Type="Object" ClassName="TextItem">
+                  <objectName Type="QString">TextItem28</objectName>
+                  <geometry x="1432" width="496" Type="QRect" y="112" height="50"/>
+                  <children Type="Collection"/>
+                  <zOrder Value="0" Type="qreal"/>
+                  <borders Value="0" Type="enumAndFlags"/>
+                  <parentName Type="QString">ReportHeader1</parentName>
+                  <borderLineSize Value="1" Type="int"/>
+                  <isVisible Value="1" Type="bool"/>
+                  <itemLocation Value="0" Type="enumAndFlags"/>
+                  <stretchToMaxHeight Value="0" Type="bool"/>
+                  <itemAlign Value="4" Type="enumAndFlags"/>
+                  <content Type="QString">$V{obl}</content>
+                  <margin Value="4" Type="int"/>
+                  <alignment Value="33" Type="enumAndFlags"/>
+                  <autoWidth Value="0" Type="enumAndFlags"/>
+                  <autoHeight Value="0" Type="bool"/>
+                  <font pointSize="9" bold="0" Type="QFont" underline="0" italic="0" family="Liberation Sans"/>
+                  <backgroundOpacity Value="100" Type="int"/>
+                  <backgroundMode Value="1" Type="enumAndFlags"/>
+                  <backgroundColor Value="#ffffff" Type="QColor"/>
+                  <fontColor Value="#000000" Type="QColor"/>
+                  <angle Value="0" Type="enumAndFlags"/>
+                  <foregroundOpacity Value="100" Type="int"/>
+                  <trimValue Value="1" Type="bool"/>
+                  <allowHTML Value="0" Type="bool"/>
+                </item>
+                <item Type="Object" ClassName="TextItem">
+                  <objectName Type="QString">TextItem29</objectName>
+                  <geometry x="1432" width="502" Type="QRect" y="212" height="50"/>
+                  <children Type="Collection"/>
+                  <zOrder Value="0" Type="qreal"/>
+                  <borders Value="0" Type="enumAndFlags"/>
+                  <parentName Type="QString">ReportHeader1</parentName>
+                  <borderLineSize Value="1" Type="int"/>
+                  <isVisible Value="1" Type="bool"/>
+                  <itemLocation Value="0" Type="enumAndFlags"/>
+                  <stretchToMaxHeight Value="0" Type="bool"/>
+                  <itemAlign Value="4" Type="enumAndFlags"/>
+                  <content Type="QString">$V{otr}</content>
+                  <margin Value="4" Type="int"/>
+                  <alignment Value="33" Type="enumAndFlags"/>
+                  <autoWidth Value="0" Type="enumAndFlags"/>
+                  <autoHeight Value="0" Type="bool"/>
+                  <font pointSize="9" bold="0" Type="QFont" underline="0" italic="0" family="Liberation Sans"/>
+                  <backgroundOpacity Value="100" Type="int"/>
+                  <backgroundMode Value="1" Type="enumAndFlags"/>
+                  <backgroundColor Value="#ffffff" Type="QColor"/>
+                  <fontColor Value="#000000" Type="QColor"/>
+                  <angle Value="0" Type="enumAndFlags"/>
+                  <foregroundOpacity Value="100" Type="int"/>
+                  <trimValue Value="1" Type="bool"/>
+                  <allowHTML Value="0" Type="bool"/>
+                </item>
+                <item Type="Object" ClassName="TextItem">
+                  <objectName Type="QString">TextItem30</objectName>
+                  <geometry x="1432" width="498" Type="QRect" y="162" height="50"/>
+                  <children Type="Collection"/>
+                  <zOrder Value="0" Type="qreal"/>
+                  <borders Value="0" Type="enumAndFlags"/>
+                  <parentName Type="QString">ReportHeader1</parentName>
+                  <borderLineSize Value="1" Type="int"/>
+                  <isVisible Value="1" Type="bool"/>
+                  <itemLocation Value="0" Type="enumAndFlags"/>
+                  <stretchToMaxHeight Value="0" Type="bool"/>
+                  <itemAlign Value="4" Type="enumAndFlags"/>
+                  <content Type="QString">$V{cit}</content>
+                  <margin Value="4" Type="int"/>
+                  <alignment Value="33" Type="enumAndFlags"/>
+                  <autoWidth Value="0" Type="enumAndFlags"/>
+                  <autoHeight Value="0" Type="bool"/>
+                  <font pointSize="9" bold="0" Type="QFont" underline="0" italic="0" family="Liberation Sans"/>
+                  <backgroundOpacity Value="100" Type="int"/>
+                  <backgroundMode Value="1" Type="enumAndFlags"/>
+                  <backgroundColor Value="#ffffff" Type="QColor"/>
+                  <fontColor Value="#000000" Type="QColor"/>
+                  <angle Value="0" Type="enumAndFlags"/>
+                  <foregroundOpacity Value="100" Type="int"/>
+                  <trimValue Value="1" Type="bool"/>
+                  <allowHTML Value="0" Type="bool"/>
+                </item>
+                <item Type="Object" ClassName="TextItem">
+                  <objectName Type="QString">TextItem31</objectName>
+                  <geometry x="1432" width="508" Type="QRect" y="262" height="46"/>
+                  <children Type="Collection"/>
+                  <zOrder Value="0" Type="qreal"/>
+                  <borders Value="0" Type="enumAndFlags"/>
+                  <parentName Type="QString">ReportHeader1</parentName>
+                  <borderLineSize Value="1" Type="int"/>
+                  <isVisible Value="1" Type="bool"/>
+                  <itemLocation Value="0" Type="enumAndFlags"/>
+                  <stretchToMaxHeight Value="0" Type="bool"/>
+                  <itemAlign Value="4" Type="enumAndFlags"/>
+                  <content Type="QString">$V{vid}</content>
+                  <margin Value="4" Type="int"/>
+                  <alignment Value="33" Type="enumAndFlags"/>
+                  <autoWidth Value="0" Type="enumAndFlags"/>
+                  <autoHeight Value="0" Type="bool"/>
+                  <font pointSize="9" bold="0" Type="QFont" underline="0" italic="0" family="Liberation Sans"/>
+                  <backgroundOpacity Value="100" Type="int"/>
+                  <backgroundMode Value="1" Type="enumAndFlags"/>
+                  <backgroundColor Value="#ffffff" Type="QColor"/>
+                  <fontColor Value="#000000" Type="QColor"/>
+                  <angle Value="0" Type="enumAndFlags"/>
+                  <foregroundOpacity Value="100" Type="int"/>
+                  <trimValue Value="1" Type="bool"/>
+                  <allowHTML Value="0" Type="bool"/>
+                </item>
+                <item Type="Object" ClassName="TextItem">
+                  <objectName Type="QString">TextItem32</objectName>
+                  <geometry x="1432" width="250" Type="QRect" y="308" height="50"/>
+                  <children Type="Collection"/>
+                  <zOrder Value="0" Type="qreal"/>
+                  <borders Value="0" Type="enumAndFlags"/>
+                  <parentName Type="QString">ReportHeader1</parentName>
+                  <borderLineSize Value="1" Type="int"/>
+                  <isVisible Value="1" Type="bool"/>
+                  <itemLocation Value="0" Type="enumAndFlags"/>
+                  <stretchToMaxHeight Value="0" Type="bool"/>
+                  <itemAlign Value="4" Type="enumAndFlags"/>
+                  <content Type="QString">$V{year}</content>
+                  <margin Value="4" Type="int"/>
+                  <alignment Value="33" Type="enumAndFlags"/>
+                  <autoWidth Value="0" Type="enumAndFlags"/>
+                  <autoHeight Value="0" Type="bool"/>
+                  <font pointSize="9" bold="0" Type="QFont" underline="0" italic="0" family="Liberation Sans"/>
+                  <backgroundOpacity Value="100" Type="int"/>
+                  <backgroundMode Value="1" Type="enumAndFlags"/>
+                  <backgroundColor Value="#ffffff" Type="QColor"/>
+                  <fontColor Value="#000000" Type="QColor"/>
+                  <angle Value="0" Type="enumAndFlags"/>
+                  <foregroundOpacity Value="100" Type="int"/>
+                  <trimValue Value="1" Type="bool"/>
+                  <allowHTML Value="0" Type="bool"/>
+                </item>
+              </children>
+              <zOrder Value="0" Type="qreal"/>
+              <borders Value="0" Type="enumAndFlags"/>
+              <parentName Type="QString">ReportPage1</parentName>
+              <borderLineSize Value="1" Type="int"/>
+              <isVisible Value="1" Type="bool"/>
+              <autoHeight Value="1" Type="bool"/>
+              <bandIndex Value="1" Type="int"/>
+              <keepBottomSpace Value="0" Type="bool"/>
+              <parentBand Type="QString"></parentBand>
+              <backgroundColor Value="#ffffff" Type="QColor"/>
+              <printIfEmpty Value="0" Type="bool"/>
+              <splittable Value="0" Type="bool"/>
+            </item>
+            <item Type="Object" ClassName="PageHeader">
+              <objectName Type="QString">PageHeader2</objectName>
+              <geometry x="50" width="2000" Type="QRect" y="50" height="156"/>
+              <children Type="Collection">
+                <item Type="Object" ClassName="TextItem">
+                  <objectName Type="QString">TextItem2</objectName>
+                  <geometry x="0" width="1226" Type="QRect" y="6" height="138"/>
+                  <children Type="Collection"/>
+                  <zOrder Value="0" Type="qreal"/>
+                  <borders Value="0" Type="enumAndFlags"/>
+                  <parentName Type="QString">PageHeader2</parentName>
+                  <borderLineSize Value="1" Type="int"/>
+                  <isVisible Value="1" Type="bool"/>
+                  <itemLocation Value="0" Type="enumAndFlags"/>
+                  <stretchToMaxHeight Value="0" Type="bool"/>
+                  <itemAlign Value="0" Type="enumAndFlags"/>
+                  <content Type="QString">Отчет об эффективности подготовки кадров высшей квалификации в аспирантуре
+</content>
+                  <margin Value="4" Type="int"/>
+                  <alignment Value="33" Type="enumAndFlags"/>
+                  <autoWidth Value="0" Type="enumAndFlags"/>
+                  <autoHeight Value="0" Type="bool"/>
+                  <font pointSize="11" bold="0" Type="QFont" underline="0" italic="0" family="Bitstream Charter"/>
+                  <backgroundOpacity Value="100" Type="int"/>
+                  <backgroundMode Value="1" Type="enumAndFlags"/>
+                  <backgroundColor Value="#ffffff" Type="QColor"/>
+                  <fontColor Value="#000000" Type="QColor"/>
+                  <angle Value="0" Type="enumAndFlags"/>
+                  <foregroundOpacity Value="100" Type="int"/>
+                  <trimValue Value="1" Type="bool"/>
+                  <allowHTML Value="0" Type="bool"/>
+                </item>
+              </children>
+              <zOrder Value="0" Type="qreal"/>
+              <borders Value="0" Type="enumAndFlags"/>
+              <parentName Type="QString">ReportPage1</parentName>
+              <borderLineSize Value="0" Type="int"/>
+              <isVisible Value="1" Type="bool"/>
+              <autoHeight Value="1" Type="bool"/>
+              <bandIndex Value="0" Type="int"/>
+              <keepBottomSpace Value="0" Type="bool"/>
+              <parentBand Type="QString"></parentBand>
+              <backgroundColor Value="#ffffff" Type="QColor"/>
+              <printIfEmpty Value="0" Type="bool"/>
+            </item>
+            <item Type="Object" ClassName="Data">
+              <objectName Type="QString">DataBand6</objectName>
+              <geometry x="50" width="2000" Type="QRect" y="748" height="376"/>
+              <children Type="Collection">
+                <item Type="Object" ClassName="TextItem">
+                  <objectName Type="QString">TextItem6</objectName>
+                  <geometry x="1000" width="180" Type="QRect" y="2" height="116"/>
+                  <children Type="Collection"/>
+                  <zOrder Value="0" Type="qreal"/>
+                  <borders Value="14" Type="enumAndFlags"/>
+                  <parentName Type="QString">DataBand6</parentName>
+                  <borderLineSize Value="1" Type="int"/>
+                  <isVisible Value="1" Type="bool"/>
+                  <itemLocation Value="0" Type="enumAndFlags"/>
+                  <stretchToMaxHeight Value="0" Type="bool"/>
+                  <itemAlign Value="4" Type="enumAndFlags"/>
+                  <content Type="QString">$D{table_model.Выпущено в 2015
+ всего}
+</content>
+                  <margin Value="4" Type="int"/>
+                  <alignment Value="33" Type="enumAndFlags"/>
+                  <autoWidth Value="0" Type="enumAndFlags"/>
+                  <autoHeight Value="0" Type="bool"/>
+                  <font pointSize="10" bold="0" Type="QFont" underline="0" italic="0" family="Arial"/>
+                  <backgroundOpacity Value="100" Type="int"/>
+                  <backgroundMode Value="1" Type="enumAndFlags"/>
+                  <backgroundColor Value="#ffffff" Type="QColor"/>
+                  <fontColor Value="#000000" Type="QColor"/>
+                  <angle Value="0" Type="enumAndFlags"/>
+                  <foregroundOpacity Value="100" Type="int"/>
+                  <trimValue Value="1" Type="bool"/>
+                  <allowHTML Value="0" Type="bool"/>
+                </item>
+                <item Type="Object" ClassName="TextItem">
+                  <objectName Type="QString">TextItem7</objectName>
+                  <geometry x="1180" width="180" Type="QRect" y="2" height="116"/>
+                  <children Type="Collection"/>
+                  <zOrder Value="0" Type="qreal"/>
+                  <borders Value="14" Type="enumAndFlags"/>
+                  <parentName Type="QString">DataBand6</parentName>
+                  <borderLineSize Value="1" Type="int"/>
+                  <isVisible Value="1" Type="bool"/>
+                  <itemLocation Value="0" Type="enumAndFlags"/>
+                  <stretchToMaxHeight Value="0" Type="bool"/>
+                  <itemAlign Value="4" Type="enumAndFlags"/>
+                  <content Type="QString">$D{table_model.Выпущено в 2015
+ с защитой в срок}</content>
+                  <margin Value="4" Type="int"/>
+                  <alignment Value="33" Type="enumAndFlags"/>
+                  <autoWidth Value="0" Type="enumAndFlags"/>
+                  <autoHeight Value="0" Type="bool"/>
+                  <font pointSize="10" bold="0" Type="QFont" underline="0" italic="0" family="Arial"/>
+                  <backgroundOpacity Value="100" Type="int"/>
+                  <backgroundMode Value="1" Type="enumAndFlags"/>
+                  <backgroundColor Value="#ffffff" Type="QColor"/>
+                  <fontColor Value="#000000" Type="QColor"/>
+                  <angle Value="0" Type="enumAndFlags"/>
+                  <foregroundOpacity Value="100" Type="int"/>
+                  <trimValue Value="1" Type="bool"/>
+                  <allowHTML Value="0" Type="bool"/>
+                </item>
+                <item Type="Object" ClassName="TextItem">
+                  <objectName Type="QString">TextItem8</objectName>
+                  <geometry x="1360" width="180" Type="QRect" y="2" height="116"/>
+                  <children Type="Collection"/>
+                  <zOrder Value="0" Type="qreal"/>
+                  <borders Value="14" Type="enumAndFlags"/>
+                  <parentName Type="QString">DataBand6</parentName>
+                  <borderLineSize Value="1" Type="int"/>
+                  <isVisible Value="1" Type="bool"/>
+                  <itemLocation Value="0" Type="enumAndFlags"/>
+                  <stretchToMaxHeight Value="0" Type="bool"/>
+                  <itemAlign Value="4" Type="enumAndFlags"/>
+                  <content Type="QString">$D{table_model.Выпущено в 2015
+ с защитой в срок %}</content>
+                  <margin Value="4" Type="int"/>
+                  <alignment Value="33" Type="enumAndFlags"/>
+                  <autoWidth Value="0" Type="enumAndFlags"/>
+                  <autoHeight Value="0" Type="bool"/>
+                  <font pointSize="10" bold="0" Type="QFont" underline="0" italic="0" family="Arial"/>
+                  <backgroundOpacity Value="100" Type="int"/>
+                  <backgroundMode Value="1" Type="enumAndFlags"/>
+                  <backgroundColor Value="#ffffff" Type="QColor"/>
+                  <fontColor Value="#000000" Type="QColor"/>
+                  <angle Value="0" Type="enumAndFlags"/>
+                  <foregroundOpacity Value="100" Type="int"/>
+                  <trimValue Value="1" Type="bool"/>
+                  <allowHTML Value="0" Type="bool"/>
+                </item>
+                <item Type="Object" ClassName="TextItem">
+                  <objectName Type="QString">TextItem10</objectName>
+                  <geometry x="1540" width="214" Type="QRect" y="2" height="116"/>
+                  <children Type="Collection"/>
+                  <zOrder Value="0" Type="qreal"/>
+                  <borders Value="14" Type="enumAndFlags"/>
+                  <parentName Type="QString">DataBand6</parentName>
+                  <borderLineSize Value="1" Type="int"/>
+                  <isVisible Value="1" Type="bool"/>
+                  <itemLocation Value="0" Type="enumAndFlags"/>
+                  <stretchToMaxHeight Value="0" Type="bool"/>
+                  <itemAlign Value="4" Type="enumAndFlags"/>
+                  <content Type="QString">$D{table_model.Защиты в 2015}</content>
+                  <margin Value="4" Type="int"/>
+                  <alignment Value="33" Type="enumAndFlags"/>
+                  <autoWidth Value="0" Type="enumAndFlags"/>
+                  <autoHeight Value="0" Type="bool"/>
+                  <font pointSize="10" bold="0" Type="QFont" underline="0" italic="0" family="Arial"/>
+                  <backgroundOpacity Value="100" Type="int"/>
+                  <backgroundMode Value="1" Type="enumAndFlags"/>
+                  <backgroundColor Value="#ffffff" Type="QColor"/>
+                  <fontColor Value="#000000" Type="QColor"/>
+                  <angle Value="0" Type="enumAndFlags"/>
+                  <foregroundOpacity Value="100" Type="int"/>
+                  <trimValue Value="1" Type="bool"/>
+                  <allowHTML Value="0" Type="bool"/>
+                </item>
+                <item Type="Object" ClassName="TextItem">
+                  <objectName Type="QString">TextItem11</objectName>
+                  <geometry x="1754" width="214" Type="QRect" y="2" height="116"/>
+                  <children Type="Collection"/>
+                  <zOrder Value="0" Type="qreal"/>
+                  <borders Value="14" Type="enumAndFlags"/>
+                  <parentName Type="QString">DataBand6</parentName>
+                  <borderLineSize Value="1" Type="int"/>
+                  <isVisible Value="1" Type="bool"/>
+                  <itemLocation Value="0" Type="enumAndFlags"/>
+                  <stretchToMaxHeight Value="0" Type="bool"/>
+                  <itemAlign Value="4" Type="enumAndFlags"/>
+                  <content Type="QString">$D{table_model.Всего защитилось %}</content>
+                  <margin Value="4" Type="int"/>
+                  <alignment Value="33" Type="enumAndFlags"/>
+                  <autoWidth Value="0" Type="enumAndFlags"/>
+                  <autoHeight Value="0" Type="bool"/>
+                  <font pointSize="10" bold="0" Type="QFont" underline="0" italic="0" family="Arial"/>
+                  <backgroundOpacity Value="100" Type="int"/>
+                  <backgroundMode Value="1" Type="enumAndFlags"/>
+                  <backgroundColor Value="#ffffff" Type="QColor"/>
+                  <fontColor Value="#000000" Type="QColor"/>
+                  <angle Value="0" Type="enumAndFlags"/>
+                  <foregroundOpacity Value="100" Type="int"/>
+                  <trimValue Value="1" Type="bool"/>
+                  <allowHTML Value="0" Type="bool"/>
+                </item>
+                <item Type="Object" ClassName="TextItem">
+                  <objectName Type="QString">TextItem5</objectName>
+                  <geometry x="6" width="994" Type="QRect" y="2" height="116"/>
+                  <children Type="Collection"/>
+                  <zOrder Value="0" Type="qreal"/>
+                  <borders Value="14" Type="enumAndFlags"/>
+                  <parentName Type="QString">DataBand6</parentName>
+                  <borderLineSize Value="1" Type="int"/>
+                  <isVisible Value="1" Type="bool"/>
+                  <itemLocation Value="0" Type="enumAndFlags"/>
+                  <stretchToMaxHeight Value="0" Type="bool"/>
+                  <itemAlign Value="4" Type="enumAndFlags"/>
+                  <content Type="QString">$D{table_model.Название 
+ организации}</content>
+                  <margin Value="4" Type="int"/>
+                  <alignment Value="33" Type="enumAndFlags"/>
+                  <autoWidth Value="0" Type="enumAndFlags"/>
+                  <autoHeight Value="0" Type="bool"/>
+                  <font pointSize="10" bold="0" Type="QFont" underline="0" italic="0" family="Arial"/>
+                  <backgroundOpacity Value="100" Type="int"/>
+                  <backgroundMode Value="1" Type="enumAndFlags"/>
+                  <backgroundColor Value="#ffffff" Type="QColor"/>
+                  <fontColor Value="#000000" Type="QColor"/>
+                  <angle Value="0" Type="enumAndFlags"/>
+                  <foregroundOpacity Value="100" Type="int"/>
+                  <trimValue Value="1" Type="bool"/>
+                  <allowHTML Value="0" Type="bool"/>
+                </item>
+              </children>
+              <zOrder Value="0" Type="qreal"/>
+              <borders Value="0" Type="enumAndFlags"/>
+              <parentName Type="QString">ReportPage1</parentName>
+              <borderLineSize Value="1" Type="int"/>
+              <isVisible Value="1" Type="bool"/>
+              <autoHeight Value="1" Type="bool"/>
+              <bandIndex Value="3" Type="int"/>
+              <keepBottomSpace Value="0" Type="bool"/>
+              <parentBand Type="QString"></parentBand>
+              <backgroundColor Value="#ffffff" Type="QColor"/>
+              <printIfEmpty Value="0" Type="bool"/>
+              <datasource Type="QString">table_model</datasource>
+              <keepSubdetailTogether Value="0" Type="bool"/>
+              <splittable Value="0" Type="bool"/>
+              <keepFooterTogether Value="0" Type="bool"/>
+              <sliceLastRow Value="0" Type="bool"/>
+              <columnsCount Value="1" Type="int"/>
+              <columnsFillDirection Value="0" Type="enumAndFlags"/>
+              <startNewPage Value="0" Type="bool"/>
+            </item>
+            <item Type="Object" ClassName="DataHeader">
+              <objectName Type="QString">DataHeaderBand1</objectName>
+              <geometry x="50" width="2000" Type="QRect" y="582" height="162"/>
+              <children Type="Collection">
+                <item Type="Object" ClassName="TextItem">
+                  <objectName Type="QString">TextItem1</objectName>
+                  <geometry x="6" width="994" Type="QRect" y="16" height="190"/>
+                  <children Type="Collection"/>
+                  <zOrder Value="0" Type="qreal"/>
+                  <borders Value="15" Type="enumAndFlags"/>
+                  <parentName Type="QString">DataHeaderBand1</parentName>
+                  <borderLineSize Value="1" Type="int"/>
+                  <isVisible Value="1" Type="bool"/>
+                  <itemLocation Value="0" Type="enumAndFlags"/>
+                  <stretchToMaxHeight Value="0" Type="bool"/>
+                  <itemAlign Value="4" Type="enumAndFlags"/>
+                  <content Type="QString">Название организации</content>
+                  <margin Value="4" Type="int"/>
+                  <alignment Value="132" Type="enumAndFlags"/>
+                  <autoWidth Value="0" Type="enumAndFlags"/>
+                  <autoHeight Value="0" Type="bool"/>
+                  <font pointSize="12" bold="1" Type="QFont" underline="0" italic="0" family="Liberation Sans"/>
+                  <backgroundOpacity Value="100" Type="int"/>
+                  <backgroundMode Value="1" Type="enumAndFlags"/>
+                  <backgroundColor Value="#ffffff" Type="QColor"/>
+                  <fontColor Value="#000000" Type="QColor"/>
+                  <angle Value="0" Type="enumAndFlags"/>
+                  <foregroundOpacity Value="100" Type="int"/>
+                  <trimValue Value="1" Type="bool"/>
+                  <allowHTML Value="0" Type="bool"/>
+                </item>
+                <item Type="Object" ClassName="TextItem">
+                  <objectName Type="QString">TextItem16</objectName>
+                  <geometry x="1000" width="180" Type="QRect" y="16" height="190"/>
+                  <children Type="Collection"/>
+                  <zOrder Value="0" Type="qreal"/>
+                  <borders Value="15" Type="enumAndFlags"/>
+                  <parentName Type="QString">DataHeaderBand1</parentName>
+                  <borderLineSize Value="1" Type="int"/>
+                  <isVisible Value="1" Type="bool"/>
+                  <itemLocation Value="0" Type="enumAndFlags"/>
+                  <stretchToMaxHeight Value="0" Type="bool"/>
+                  <itemAlign Value="4" Type="enumAndFlags"/>
+                  <content Type="QString">Выпущено в 2015 всего</content>
+                  <margin Value="4" Type="int"/>
+                  <alignment Value="132" Type="enumAndFlags"/>
+                  <autoWidth Value="0" Type="enumAndFlags"/>
+                  <autoHeight Value="0" Type="bool"/>
+                  <font pointSize="7" bold="1" Type="QFont" underline="0" italic="0" family="Liberation Sans"/>
+                  <backgroundOpacity Value="100" Type="int"/>
+                  <backgroundMode Value="1" Type="enumAndFlags"/>
+                  <backgroundColor Value="#ffffff" Type="QColor"/>
+                  <fontColor Value="#000000" Type="QColor"/>
+                  <angle Value="0" Type="enumAndFlags"/>
+                  <foregroundOpacity Value="100" Type="int"/>
+                  <trimValue Value="1" Type="bool"/>
+                  <allowHTML Value="0" Type="bool"/>
+                </item>
+                <item Type="Object" ClassName="TextItem">
+                  <objectName Type="QString">TextItem17</objectName>
+                  <geometry x="1180" width="180" Type="QRect" y="16" height="190"/>
+                  <children Type="Collection"/>
+                  <zOrder Value="0" Type="qreal"/>
+                  <borders Value="15" Type="enumAndFlags"/>
+                  <parentName Type="QString">DataHeaderBand1</parentName>
+                  <borderLineSize Value="1" Type="int"/>
+                  <isVisible Value="1" Type="bool"/>
+                  <itemLocation Value="0" Type="enumAndFlags"/>
+                  <stretchToMaxHeight Value="0" Type="bool"/>
+                  <itemAlign Value="4" Type="enumAndFlags"/>
+                  <content Type="QString">Выпущено в 2015 с защитой в срок</content>
+                  <margin Value="4" Type="int"/>
+                  <alignment Value="132" Type="enumAndFlags"/>
+                  <autoWidth Value="0" Type="enumAndFlags"/>
+                  <autoHeight Value="0" Type="bool"/>
+                  <font pointSize="7" bold="1" Type="QFont" underline="0" italic="0" family="Liberation Sans"/>
+                  <backgroundOpacity Value="100" Type="int"/>
+                  <backgroundMode Value="1" Type="enumAndFlags"/>
+                  <backgroundColor Value="#ffffff" Type="QColor"/>
+                  <fontColor Value="#000000" Type="QColor"/>
+                  <angle Value="0" Type="enumAndFlags"/>
+                  <foregroundOpacity Value="100" Type="int"/>
+                  <trimValue Value="1" Type="bool"/>
+                  <allowHTML Value="0" Type="bool"/>
+                </item>
+                <item Type="Object" ClassName="TextItem">
+                  <objectName Type="QString">TextItem18</objectName>
+                  <geometry x="2144" width="190" Type="QRect" y="16" height="190"/>
+                  <children Type="Collection"/>
+                  <zOrder Value="0" Type="qreal"/>
+                  <borders Value="13" Type="enumAndFlags"/>
+                  <parentName Type="QString">DataHeaderBand1</parentName>
+                  <borderLineSize Value="1" Type="int"/>
+                  <isVisible Value="1" Type="bool"/>
+                  <itemLocation Value="0" Type="enumAndFlags"/>
+                  <stretchToMaxHeight Value="0" Type="bool"/>
+                  <itemAlign Value="4" Type="enumAndFlags"/>
+                  <content Type="QString">Защищено диссертаций: всего</content>
+                  <margin Value="4" Type="int"/>
+                  <alignment Value="36" Type="enumAndFlags"/>
+                  <autoWidth Value="0" Type="enumAndFlags"/>
+                  <autoHeight Value="0" Type="bool"/>
+                  <font pointSize="7" bold="1" Type="QFont" underline="0" italic="0" family="Liberation Sans"/>
+                  <backgroundOpacity Value="100" Type="int"/>
+                  <backgroundMode Value="1" Type="enumAndFlags"/>
+                  <backgroundColor Value="#ffffff" Type="QColor"/>
+                  <fontColor Value="#000000" Type="QColor"/>
+                  <angle Value="0" Type="enumAndFlags"/>
+                  <foregroundOpacity Value="100" Type="int"/>
+                  <trimValue Value="1" Type="bool"/>
+                  <allowHTML Value="0" Type="bool"/>
+                </item>
+                <item Type="Object" ClassName="TextItem">
+                  <objectName Type="QString">TextItem19</objectName>
+                  <geometry x="2334" width="180" Type="QRect" y="16" height="190"/>
+                  <children Type="Collection"/>
+                  <zOrder Value="0" Type="qreal"/>
+                  <borders Value="13" Type="enumAndFlags"/>
+                  <parentName Type="QString">DataHeaderBand1</parentName>
+                  <borderLineSize Value="1" Type="int"/>
+                  <isVisible Value="1" Type="bool"/>
+                  <itemLocation Value="0" Type="enumAndFlags"/>
+                  <stretchToMaxHeight Value="0" Type="bool"/>
+                  <itemAlign Value="4" Type="enumAndFlags"/>
+                  <content Type="QString">Защищено диссертаций: женщинами</content>
+                  <margin Value="4" Type="int"/>
+                  <alignment Value="36" Type="enumAndFlags"/>
+                  <autoWidth Value="0" Type="enumAndFlags"/>
+                  <autoHeight Value="0" Type="bool"/>
+                  <font pointSize="7" bold="1" Type="QFont" underline="0" italic="0" family="Liberation Sans"/>
+                  <backgroundOpacity Value="100" Type="int"/>
+                  <backgroundMode Value="1" Type="enumAndFlags"/>
+                  <backgroundColor Value="#ffffff" Type="QColor"/>
+                  <fontColor Value="#000000" Type="QColor"/>
+                  <angle Value="0" Type="enumAndFlags"/>
+                  <foregroundOpacity Value="100" Type="int"/>
+                  <trimValue Value="1" Type="bool"/>
+                  <allowHTML Value="0" Type="bool"/>
+                </item>
+                <item Type="Object" ClassName="TextItem">
+                  <objectName Type="QString">TextItem9</objectName>
+                  <geometry x="1360" width="180" Type="QRect" y="16" height="190"/>
+                  <children Type="Collection"/>
+                  <zOrder Value="0" Type="qreal"/>
+                  <borders Value="15" Type="enumAndFlags"/>
+                  <parentName Type="QString">DataHeaderBand1</parentName>
+                  <borderLineSize Value="1" Type="int"/>
+                  <isVisible Value="1" Type="bool"/>
+                  <itemLocation Value="0" Type="enumAndFlags"/>
+                  <stretchToMaxHeight Value="0" Type="bool"/>
+                  <itemAlign Value="4" Type="enumAndFlags"/>
+                  <content Type="QString">Выпущено в 2015 с защитой в срок %</content>
+                  <margin Value="4" Type="int"/>
+                  <alignment Value="132" Type="enumAndFlags"/>
+                  <autoWidth Value="0" Type="enumAndFlags"/>
+                  <autoHeight Value="0" Type="bool"/>
+                  <font pointSize="7" bold="1" Type="QFont" underline="0" italic="0" family="Liberation Sans"/>
+                  <backgroundOpacity Value="100" Type="int"/>
+                  <backgroundMode Value="1" Type="enumAndFlags"/>
+                  <backgroundColor Value="#ffffff" Type="QColor"/>
+                  <fontColor Value="#000000" Type="QColor"/>
+                  <angle Value="0" Type="enumAndFlags"/>
+                  <foregroundOpacity Value="100" Type="int"/>
+                  <trimValue Value="1" Type="bool"/>
+                  <allowHTML Value="0" Type="bool"/>
+                </item>
+                <item Type="Object" ClassName="TextItem">
+                  <objectName Type="QString">TextItem12</objectName>
+                  <geometry x="1540" width="214" Type="QRect" y="16" height="190"/>
+                  <children Type="Collection"/>
+                  <zOrder Value="0" Type="qreal"/>
+                  <borders Value="15" Type="enumAndFlags"/>
+                  <parentName Type="QString">DataHeaderBand1</parentName>
+                  <borderLineSize Value="1" Type="int"/>
+                  <isVisible Value="1" Type="bool"/>
+                  <itemLocation Value="0" Type="enumAndFlags"/>
+                  <stretchToMaxHeight Value="0" Type="bool"/>
+                  <itemAlign Value="4" Type="enumAndFlags"/>
+                  <content Type="QString">Защиты в 2015</content>
+                  <margin Value="4" Type="int"/>
+                  <alignment Value="132" Type="enumAndFlags"/>
+                  <autoWidth Value="0" Type="enumAndFlags"/>
+                  <autoHeight Value="0" Type="bool"/>
+                  <font pointSize="7" bold="1" Type="QFont" underline="0" italic="0" family="Liberation Sans"/>
+                  <backgroundOpacity Value="100" Type="int"/>
+                  <backgroundMode Value="1" Type="enumAndFlags"/>
+                  <backgroundColor Value="#ffffff" Type="QColor"/>
+                  <fontColor Value="#000000" Type="QColor"/>
+                  <angle Value="0" Type="enumAndFlags"/>
+                  <foregroundOpacity Value="100" Type="int"/>
+                  <trimValue Value="1" Type="bool"/>
+                  <allowHTML Value="0" Type="bool"/>
+                </item>
+                <item Type="Object" ClassName="TextItem">
+                  <objectName Type="QString">TextItem13</objectName>
+                  <geometry x="1754" width="214" Type="QRect" y="16" height="190"/>
+                  <children Type="Collection"/>
+                  <zOrder Value="0" Type="qreal"/>
+                  <borders Value="15" Type="enumAndFlags"/>
+                  <parentName Type="QString">DataHeaderBand1</parentName>
+                  <borderLineSize Value="1" Type="int"/>
+                  <isVisible Value="1" Type="bool"/>
+                  <itemLocation Value="0" Type="enumAndFlags"/>
+                  <stretchToMaxHeight Value="0" Type="bool"/>
+                  <itemAlign Value="4" Type="enumAndFlags"/>
+                  <content Type="QString">Всего защитилось %</content>
+                  <margin Value="4" Type="int"/>
+                  <alignment Value="132" Type="enumAndFlags"/>
+                  <autoWidth Value="0" Type="enumAndFlags"/>
+                  <autoHeight Value="0" Type="bool"/>
+                  <font pointSize="7" bold="1" Type="QFont" underline="0" italic="0" family="Liberation Sans"/>
+                  <backgroundOpacity Value="100" Type="int"/>
+                  <backgroundMode Value="1" Type="enumAndFlags"/>
+                  <backgroundColor Value="#ffffff" Type="QColor"/>
+                  <fontColor Value="#000000" Type="QColor"/>
+                  <angle Value="0" Type="enumAndFlags"/>
+                  <foregroundOpacity Value="100" Type="int"/>
+                  <trimValue Value="1" Type="bool"/>
+                  <allowHTML Value="0" Type="bool"/>
+                </item>
+              </children>
+              <zOrder Value="0" Type="qreal"/>
+              <borders Value="0" Type="enumAndFlags"/>
+              <parentName Type="QString">ReportPage1</parentName>
+              <borderLineSize Value="1" Type="int"/>
+              <isVisible Value="1" Type="bool"/>
+              <autoHeight Value="1" Type="bool"/>
+              <bandIndex Value="2" Type="int"/>
+              <keepBottomSpace Value="0" Type="bool"/>
+              <parentBand Type="QString">DataBand6</parentBand>
+              <backgroundColor Value="#ffffff" Type="QColor"/>
+              <printIfEmpty Value="0" Type="bool"/>
+              <reprintOnEachPage Value="1" Type="bool"/>
+              <columnsCount Value="1" Type="int"/>
+            </item>
+            <item Type="Object" ClassName="PageFooter">
+              <objectName Type="QString">PageFooter14</objectName>
+              <geometry x="50" width="2000" Type="QRect" y="1128" height="100"/>
+              <children Type="Collection">
+                <item Type="Object" ClassName="TextItem">
+                  <objectName Type="QString">TextItem14</objectName>
+                  <geometry x="1822" width="250" Type="QRect" y="24" height="50"/>
+                  <children Type="Collection"/>
+                  <zOrder Value="0" Type="qreal"/>
+                  <borders Value="0" Type="enumAndFlags"/>
+                  <parentName Type="QString">PageFooter14</parentName>
+                  <borderLineSize Value="1" Type="int"/>
+                  <isVisible Value="1" Type="bool"/>
+                  <itemLocation Value="0" Type="enumAndFlags"/>
+                  <stretchToMaxHeight Value="0" Type="bool"/>
+                  <itemAlign Value="4" Type="enumAndFlags"/>
+                  <content Type="QString">$V{#PAGE}</content>
+                  <margin Value="4" Type="int"/>
+                  <alignment Value="33" Type="enumAndFlags"/>
+                  <autoWidth Value="0" Type="enumAndFlags"/>
+                  <autoHeight Value="0" Type="bool"/>
+                  <font pointSize="9" bold="0" Type="QFont" underline="0" italic="0" family="Noto Sans"/>
+                  <backgroundOpacity Value="100" Type="int"/>
+                  <backgroundMode Value="1" Type="enumAndFlags"/>
+                  <backgroundColor Value="#ffffff" Type="QColor"/>
+                  <fontColor Value="#000000" Type="QColor"/>
+                  <angle Value="0" Type="enumAndFlags"/>
+                  <foregroundOpacity Value="100" Type="int"/>
+                  <trimValue Value="1" Type="bool"/>
+                  <allowHTML Value="0" Type="bool"/>
+                </item>
+              </children>
+              <zOrder Value="0" Type="qreal"/>
+              <borders Value="0" Type="enumAndFlags"/>
+              <parentName Type="QString">ReportPage1</parentName>
+              <borderLineSize Value="1" Type="int"/>
+              <isVisible Value="1" Type="bool"/>
+              <autoHeight Value="1" Type="bool"/>
+              <bandIndex Value="4" Type="int"/>
+              <keepBottomSpace Value="0" Type="bool"/>
+              <parentBand Type="QString"></parentBand>
+              <backgroundColor Value="#ffffff" Type="QColor"/>
+              <printIfEmpty Value="0" Type="bool"/>
+            </item>
+          </children>
+          <zOrder Value="0" Type="qreal"/>
+          <borders Value="0" Type="enumAndFlags"/>
+          <parentName Type="QString"></parentName>
+          <borderLineSize Value="1" Type="int"/>
+          <isVisible Value="1" Type="bool"/>
+          <topMargin Value="5" Type="int"/>
+          <bottomMargin Value="5" Type="int"/>
+          <rightMargin Value="5" Type="int"/>
+          <leftMargin Value="5" Type="int"/>
+          <pageOrientation Value="0" Type="enumAndFlags"/>
+          <pageSize Value="0" Type="enumAndFlags"/>
+          <gridStep Value="2" Type="int"/>
+        </pageItem>
+      </item>
+    </pages>
+    <datasourcesManager Type="Object" ClassName="LimeReport::DataSourceManager">
+      <objectName Type="QString">datasources</objectName>
+      <connections Type="Collection"/>
+      <queries Type="Collection"/>
+      <subqueries Type="Collection"/>
+      <subproxies Type="Collection"/>
+      <variables Type="Collection">
+        <item Type="Object" ClassName="LimeReport::VarDesc">
+          <objectName Type="QString"></objectName>
+          <name Type="QString">test</name>
+          <value Type="QString">SDGDFF</value>
+        </item>
+        <item Type="Object" ClassName="LimeReport::VarDesc">
+          <objectName Type="QString"></objectName>
+          <name Type="QString">IND</name>
+          <value Type="QString"></value>
+        </item>
+        <item Type="Object" ClassName="LimeReport::VarDesc">
+          <objectName Type="QString"></objectName>
+          <name Type="QString">SPECIALITY</name>
+          <value Type="QString"></value>
+        </item>
+        <item Type="Object" ClassName="LimeReport::VarDesc">
+          <objectName Type="QString"></objectName>
+          <name Type="QString">REPORT_HEAD</name>
+          <value Type="QString"></value>
+        </item>
+        <item Type="Object" ClassName="LimeReport::VarDesc">
+          <objectName Type="QString"></objectName>
+          <name Type="QString">otr</name>
+          <value Type="QString">Выкл</value>
+        </item>
+        <item Type="Object" ClassName="LimeReport::VarDesc">
+          <objectName Type="QString"></objectName>
+          <name Type="QString">reg</name>
+          <value Type="QString">Выкл</value>
+        </item>
+        <item Type="Object" ClassName="LimeReport::VarDesc">
+          <objectName Type="QString"></objectName>
+          <name Type="QString">obl</name>
+          <value Type="QString">Выкл</value>
+        </item>
+        <item Type="Object" ClassName="LimeReport::VarDesc">
+          <objectName Type="QString"></objectName>
+          <name Type="QString">cit</name>
+          <value Type="QString">Выкл</value>
+        </item>
+        <item Type="Object" ClassName="LimeReport::VarDesc">
+          <objectName Type="QString"></objectName>
+          <name Type="QString">vid</name>
+          <value Type="QString">Бюджетное обучение</value>
+        </item>
+        <item Type="Object" ClassName="LimeReport::VarDesc">
+          <objectName Type="QString"></objectName>
+          <name Type="QString">year</name>
+          <value Type="QString">2015</value>
+        </item>
+        <item Type="Object" ClassName="LimeReport::VarDesc">
+          <objectName Type="QString"></objectName>
+          <name Type="QString">column_1_name</name>
+          <value Type="QString">Название 
+ организации</value>
+        </item>
+        <item Type="Object" ClassName="LimeReport::VarDesc">
+          <objectName Type="QString"></objectName>
+          <name Type="QString">column_2_name</name>
+          <value Type="QString">Выпущено в 2015
+ всего</value>
+        </item>
+        <item Type="Object" ClassName="LimeReport::VarDesc">
+          <objectName Type="QString"></objectName>
+          <name Type="QString">column_3_name</name>
+          <value Type="QString">Выпущено в 2015
+ с защитой в срок</value>
+        </item>
+        <item Type="Object" ClassName="LimeReport::VarDesc">
+          <objectName Type="QString"></objectName>
+          <name Type="QString">column_4_name</name>
+          <value Type="QString">Выпущено в 2015
+ с защитой в срок %</value>
+        </item>
+        <item Type="Object" ClassName="LimeReport::VarDesc">
+          <objectName Type="QString"></objectName>
+          <name Type="QString">column_5_name</name>
+          <value Type="QString">Защиты в 2015</value>
+        </item>
+        <item Type="Object" ClassName="LimeReport::VarDesc">
+          <objectName Type="QString"></objectName>
+          <name Type="QString">column_6_name</name>
+          <value Type="QString">Всего защитилось %</value>
+        </item>
+      </variables>
+    </datasourcesManager>
+  </object>
+</Report>
